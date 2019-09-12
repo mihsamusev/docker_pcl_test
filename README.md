@@ -64,8 +64,9 @@ stored in ``bunny.pcd`` file resides in the ``/code`` folder.
 ```
 
 ## Results
-If everything is correct one should arrive at a new window with interactive point cloud viewer. 
-![alt text](https://github.com/mihsamusev/docker_pcl_test/result.PNG "Cloud bunny from Docker PCL")
+If everything is correct one should arrive at a new window with interactive point cloud viewer.
+
+![](https://github.com/mihsamusev/docker_pcl_test/blob/master/result.PNG)
 Following useful commands can be applied to operate the viewer 
 * ``+\-`` increase / decrease point size
 * ``r`` reset camera to viewpoint (0, 0, 0)

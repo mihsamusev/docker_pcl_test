@@ -22,7 +22,7 @@ git clone https://github.com/mihsamusev/docker_pcl_test.git
 Pull [innerspace PCL image](https://hub.docker.com/r/innerspace/docker-pcl) from docker hub.
 The image is quite heavy (1.12 GB) due to the large amount and weight of the 3rd party libraries required to run PCL.
 ```
-docker pull innerspace/docker-pcl
+docker pull innerspace/docker-pcl:ubuntu_16.04
 ```
 
 ### Run the container

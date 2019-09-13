@@ -26,7 +26,7 @@ docker pull innerspace/docker-pcl:ubuntu_16.04
 ```
 
 ### Run the container
-If you are on Windows start the container by running ``./start_pcl_container.sh`` shell script in terminal or ``start_pcl_cmd`` if you prefer the command prompt. The script tells docker to run the
+If you are on Windows start the container by running ``./start_pcl_shell.sh`` shell script in terminal or ``start_pcl_cmd`` if you prefer the command prompt. The script tells docker to run the
 container in the interactive mode, provide access to host graphics from container through DISPLAY environmental variable, mount volume
 allowing file exchange between /cloud_viewer directory on the host and /code directory on the container. Finally, the container is going
 to be removed after exiting to free storage. **Make sure VcXsrv or xQuartz are up and running otherwise the container is unable display graphics and throw an X server error.**
